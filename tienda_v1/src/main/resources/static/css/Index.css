@@ -1,0 +1,96 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 21 sept 2023, 20:56:45
+    Author     : David Chaves
+*/
+hr:{
+    border-width: thin;
+    border-style: groove;
+}
+h1:{
+    text-align: center;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 10%;
+    background-color: goldenrod;
+}
+
+.aside{
+     position: fixed;
+    top: 10%;
+    left:0;
+    width: 20%;
+    height: 85%;
+    background-color: yellowgreen;
+}
+
+.noticia{
+    background-color: khaki
+}
+
+.section{
+    position: fixed;
+    top: 10%;
+    left:20%;
+    width: 80%;
+    height: 85%;
+    background-color: olive;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 5%;
+    background-color: rosybrown;
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-menu{
+    display:flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    color:white;
+   text-decoration: none;
+}
+
+.nav-menu-link{
+    color: white;
+    font-size: 30px;
+    margin: 0 10px;
+    line-height: 90px;
+    width: max-content;
+}
+
+.nav-link{
+    color:white;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 90px;
+}

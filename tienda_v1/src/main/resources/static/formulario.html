@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Test Tienda</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="//cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"/>
+        <link href="css/Index.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+        <script src="//cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+        <header class="header">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="ejemplo2.html">Ejemplo 2</a>
+                <a href="ejemplo3.html">Ejemplo 3</a>
+                <a href="ejemplo4.html">Ejemplo 4</a>
+                <a href="ejemplo5.html">Ejemplo 5</a>
+                <a href="ejemplo6.html">Ejemplo 6</a>
+                <a href="audios.html">Audios</a>
+                <a href="videos.html">Videos</a>
+                <a href="iframes.html">IFrame</a>
+                <a href="formulario.html">Formulario</a>
+            </nav>
+        </header>
+
+        <hr>
+
+        <aside class="aside">
+            <h2 class="noticia">Formularios</h2>
+            <p>Información de noticia en Formulario</p>
+        </aside>
+
+        <section class="section">
+            <article>
+                <header>
+                    <h2>Solicitud de infomación</h2>
+                </header>
+                <form action="Cliente/Registro">
+                    <table border="0" cellspacing="5" cellpadding="5" id="TableFormularioRegistro">
+                        <tbody>
+                            <tr>
+                                <td>Usuario</td>
+                                <td><input type="email" name="email"  placeholder="example@gmail.com" maxlength="25"/></td>
+                            </tr>
+                            <tr>
+                                <td>Clave</td>
+                                <td><input type="password" name="clave"  maxlength="10"/></td>
+                            </tr>
+                            <tr>
+                                <td>Nombre</td>
+                                <td><input type="text" name="nombre"  placeholder="Digite su nombre" maxlength="15"/></td>
+                            </tr>
+                            <tr>
+                                <td>Color Favorito</td>
+                                <td><input type="color" name="color"/></td>
+                            </tr>
+                            <tr>
+                                <td>Su foto</td>
+                                <td><input type="file" name="foto" accept="image/*"/></td>
+                            </tr>
+                            <tr>
+                                <td>Teléfono</td>
+                                <td><input type="tel" name="telefono"  placeholder="Digite su teléfono" maxlength="8"/></td>
+                            </tr>
+                            <tr>
+                                <td>Salario</td>
+                                <td><input type="number" name="salario" min="400000" max="1000000"/></td>
+                            </tr>
+                            <tr>
+                                <td>Nivel de Satisfacción</td>
+                                <td>Mínimo 0<input type="range" name="nivelSatisfaccion" min="0" max="10"/>Máximo 10</td>
+                            </tr>
+                            <tr>
+                                <td>Dirección exacta</td>
+                                <td><textarea name="direccion" rows="4" cols="40"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Nivel Educativo</td>
+                                <td>
+                                    <select name="nivelEducativo">
+                                        <option value="">Seleccione una opción</option>
+                                        <option value="0">Primario Incompleta</option>
+                                        <option value="1">Primaria Completa</option>
+                                        <option value="2">Secundaria Incompleta</option>
+                                        <option value="3">Secundaria Completa</option>
+                                        <option value="4">Universitad Incompleta</option>
+                                        <option value="5">Universitad Completa</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Acciones</td>
+                                <td>
+                                    <input type="reset" value="Limpiar"/>
+                                    <input type="submit" value="Guardar"/>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </article>
+        </section>
+        <footer class="footer">
+            <p>Derechos Reservados por Test Tienda &COPY; 2023</p>
+        </footer>
+    </body>
+</html>
