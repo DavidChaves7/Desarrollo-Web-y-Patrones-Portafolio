@@ -1,0 +1,216 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28 sept 2023, 21:41:09
+    Author     : David Chaves
+*/
+.header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 7%;
+    background-color: cadetblue;
+    border-bottom: solid;
+    border-bottom-color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    margin: 0 ;
+}
+
+.nav-menu{
+    display:flex;
+    margin-top: 1%;
+    list-style: none;
+}
+
+.nav-menu-item{
+    color:white;
+    text-decoration: none;
+}
+
+.nav-menu-link{
+    color: white;
+    font-size: 25px;
+    margin: 0 10px;
+    width: max-content;
+}
+
+.nav-menu-link:hover{
+    color: crimson;
+}
+
+.nav-link{
+    color:white;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.logo:hover{
+    color:crimson;
+}
+
+.container-main {
+    background-color:  white !important;
+    overflow-y: scroll;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 5%;
+    background-color: white;
+    color: white;
+    font-size:20px;
+    color: black;
+    text-align: center;
+}
+
+.section{
+    position: fixed;
+    top: 7%;
+    bottom: 5%;
+    left:0;
+    width: 100%;
+    height: 88%;
+    align-content: center;
+    text-align: center;
+    background: linear-gradient(to bottom, cadetblue, white);
+}
+
+.section-articulos{
+    position: fixed;
+    top: 7%;
+    bottom: 5%;
+    left:0;
+    width: 100%;
+    height: 88%;
+    align-content: center;
+    text-align: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: linear-gradient(to bottom, cadetblue, white);
+}
+
+.titulo{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: mediumturquoise;
+    font-family: Arial;
+    font-family: cursive;
+}
+
+.carousel-indicators li {
+    background-color: black !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black !important;
+}
+
+.profile-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.profile-circle img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col {
+    flex: 1;
+    padding: 0 15px;
+}
+.col-4 {
+    flex-basis: calc(33.33% - 30px); 
+}
+.col-12 {
+    flex-basis: calc(100% - 30px); 
+    margin-bottom: 1%;
+}
+
+.ul-paginacion {
+    list-style: none;
+    padding: 0;
+    margin-left: 43%;
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.li-paginacion {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.col-4 .video-container {
+    position: relative;
+    width: 100%;
+    height: 315px;
+}
+
+.col-4 .video-container iframe,
+.col-4 .video-container img {
+    position: absolute;
+    top: 0;
+}
+
+.col-4 .video-container iframe {
+    opacity: 0;
+    left: 7%;
+    visibility: hidden;
+    width: 560px;
+    height: 315px;
+    z-index: 1;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.col-4 .video-container:hover  iframe {
+    opacity: 1;
+    visibility: visible;
+}
+
+.col-4 .video-container img {
+    align-content: center;
+    left: 27%;
+    z-index: 2;
+    width: 300px;
+    height: 350px;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.col-4 .video-container:hover img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.col-4 .video-container figcaption{
+    position: absolute;
+    top: 120%;
+    left: 10%;
+}

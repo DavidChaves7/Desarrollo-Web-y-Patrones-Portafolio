@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="//cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link href="Css/Styles.css" rel="stylesheet" type="text/css"/>
+        <title>Perfil - Master Game</title>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">Master Game</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a href="PreVentas.html" class="nav-menu-link">Preventas</a></li>
+                    <li class="nav-menu-item"><a href="Funkos.html" class="nav-menu-link">Funkos</a></li>
+                    <li class="nav-menu-item"><a href="VideoJuegos.html" class="nav-menu-link">VideoJuegos</a></li>
+                    <li class="nav-menu-item"><a href="Accesorios.html" class="nav-menu-link">Accesorios</a></li>
+                    <li class="nav-menu-item"><a href="Promociones.html" class="nav-menu-link">Promociones</a></li>
+                    <li class="nav-menu-item"><a href="Carrito.html" class="nav-menu-link">Carrito</a></li>
+                    <li class="nav-menu-item"><a href="Perfil.html" class="nav-menu-link"><strong>Perfil</strong></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container-main">
+            <section class="section">
+                <article>
+                    <header>
+                        <h2 class="titulo" style="margin-bottom: 50px;">Perfil</h2>
+                        <div class="profile-circle" style="margin-bottom: 50px;">
+                            <img src="https://i.pinimg.com/736x/d0/4b/1f/d04b1f2ed3ca8ad4a302fbe9f4f5a875.jpg" alt="Mi Imagen de Perfil">
+                        </div>
+                    </header>
+                    <center>
+                        <form action="Cliente/Registro">
+                            <table border="0" cellspacing="5" cellpadding="5" id="TableFormularioRegistro">
+                                <tbody>
+                                    <tr>
+                                        <td>Nombre</td>
+                                        <td><input type="text" name="nombre"  placeholder="Digite su nombre" maxlength="50" value="David Chaves Delgado" readonly="readonly"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Correo</td>
+                                        <td><input type="email" name="email"  placeholder="example@gmail.com" value="dchaves80576@ufide.ac.cr" maxlength="25" readonly="readonly"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Clave</td>
+                                        <td><input type="password" name="clave"  maxlength="10" value="12345" readonly="readonly"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Teléfono</td>
+                                        <td><input type="tel" name="telefono"  placeholder="Digite su teléfono"  readonly="readonly" value="87779660" maxlength="8"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dirección exacta</td>
+                                        <td><input type="tel" name="telefono"  placeholder="Digite su teléfono" value="Costa Rica" readonly="readonly"  maxlength="200"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="button" onclick="EditarOnClick();" value="Editar"/>
+                                        </td>
+                                        <td>
+                                            <input type="submit" value="Guardar" disabled/>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </form>
+                    </center>
+                </article>
+            </section>
+        </div>
+
+        <footer class="footer">
+            <p>&COPY; David Chaves 2023</p>
+        </footer>
+        <script src="Js/Main.js" type="text/javascript"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+        <script src="//cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+        
+    </body>
+</html>
+
