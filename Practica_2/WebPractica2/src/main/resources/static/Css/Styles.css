@@ -14,7 +14,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     height: 7%;
     background-color: cadetblue;
     border-bottom: solid;
-    border-bottom-color: white;
+    border-bottom-color: midnightblue;
 }
 
 .nav{
@@ -43,7 +43,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 }
 
 .nav-menu-link:hover{
-    color: crimson;
+    color: midnightblue;
 }
 
 .nav-link{
@@ -58,11 +58,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 }
 
 .logo:hover{
-    color:crimson;
+    color:midnightblue;
 }
 
 .container-main {
-    background-color:  white !important;
+    background: linear-gradient(to bottom, cadetblue, white);
     overflow-y: scroll;
 }
 
@@ -77,6 +77,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     font-size:20px;
     color: black;
     text-align: center;
+    border-top: solid;
+    border-top-color: midnightblue;
 }
 
 .section{
@@ -105,12 +107,39 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     background: linear-gradient(to bottom, cadetblue, white);
 }
 
+.aside-articulos-accesorios{
+    position: fixed;
+    top: 7%;
+    bottom: 5%;
+    left:0;
+    width: 15%;
+    height: 88%;
+    align-content: center;
+    text-align: center;
+    background: linear-gradient(to bottom, cadetblue, white);
+}
+
+.section-articulos-accesorios{
+    position: fixed;
+    top: 7%;
+    bottom: 5%;
+    left:15%;
+    width: 85%;
+    height: 88%;
+    align-content: center;
+    text-align: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: linear-gradient(to bottom, cadetblue, white);
+}
+
 .titulo{
     margin-top: 2%;
     margin-bottom: 2%;
-    color: mediumturquoise;
-    font-family: Arial;
+    color: midnightblue;
     font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .carousel-indicators li {
