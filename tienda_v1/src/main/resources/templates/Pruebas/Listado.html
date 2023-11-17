@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"      
+      xmlns="http://www.w3.org/199/xhtml">   
+    <head th:replace="~{Layout/_Layout  :: head}">        
+        <title>TechShop</title>    
+    </head>    
+    <body>         
+        <header th:replace="~{Layout/_Layout  :: header}"/>                  
+        <section th:replace="~{Pruebas/Fragmentos :: categoriasTabs}"/>         
+        <section th:replace="~{Pruebas/Fragmentos :: listadoProductos}"/>                  
+        <footer th:replace="~{Layout/_Layout  :: footer}"/>    
+      </body>
+</html>
